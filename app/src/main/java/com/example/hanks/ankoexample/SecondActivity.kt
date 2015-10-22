@@ -10,7 +10,7 @@ import org.jetbrains.anko.*
 class SecondActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        // content view
         verticalLayout {
             val name = editText()
             button("Say Hello") {
