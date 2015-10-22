@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val fab = findViewById(R.id.fab) as FloatingActionButton
         //setOnClickListener
         fab.setOnClickListener {
+            UUtils.show()
             Snackbar.make(fab, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show()
         }
     }
